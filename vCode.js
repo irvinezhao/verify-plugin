@@ -158,6 +158,7 @@
 	};
 
 	vCode.prototype.verify = function (code) {
+		console.log('code', code)
 		return this.code === code;
 	};
 
